@@ -9,7 +9,8 @@ class Circle:
         self.circumference = 2 * math.pi * self.radius
 
     def parameters(self):
-        return (self.radius, self.diameter, self.circumference, self.area)
+        return self.radius, self.diameter, self.circumference, self.area
+
 
 a = Circle(3)
 
